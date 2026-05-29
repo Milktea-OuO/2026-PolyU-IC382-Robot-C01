@@ -1,0 +1,12 @@
+# 请求：电机ID（0表示所有电机）
+int32 motor_id
+---
+# 响应：电机状态信息
+bool success
+string message
+int32[] motor_ids
+float32[] current_angles
+float32[] target_angles
+bool[] busy_status
+int32[] current_ticks
+int32[] target_ticks

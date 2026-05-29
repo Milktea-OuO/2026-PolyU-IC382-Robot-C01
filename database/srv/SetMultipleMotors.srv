@@ -1,0 +1,8 @@
+# 请求：电机ID列表和对应角度列表
+int32[] motor_ids
+float32[] angles_deg
+---
+# 响应：每个电机的操作结果
+bool[] success
+string[] messages
+float32[] current_angles

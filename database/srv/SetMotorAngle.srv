@@ -1,0 +1,8 @@
+# 请求：电机ID和目标角度
+int32 motor_id
+float32 angle_deg
+---
+# 响应：操作结果
+bool success
+string message
+float32 current_angle
